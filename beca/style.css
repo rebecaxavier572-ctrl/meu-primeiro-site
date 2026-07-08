@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(74, 238, 197);
 
 }
 h1 {
@@ -19,4 +19,14 @@ a{
 }
 ul {
     list-style-type: square;
+    font-family: "Orbitron", sans-serif;
+}
+li {
+    font-family: "Orbitron", sans-serif;
+}
+p {
+    font-family: "Uncial Antiqua", system-ui;
+}
+main {
+    font-family: "Uncial Antiqua", system-ui;
 }
