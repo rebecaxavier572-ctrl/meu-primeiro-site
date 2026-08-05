@@ -1,0 +1,15 @@
+th,td, tr {
+    border: 3px solid cornflowerblue;
+    padding: 6px;
+}
+table{
+    border-collapse: collapse;
+}
+caption{
+    border-style: groove;
+    color: blueviolet;
+    border-color: hotpink;
+}
+thead{
+    background-color: skyblue;
+}
