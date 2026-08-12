@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(119, 133, 153);
+
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+
+    color: blueviolet;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+a{
+    text-decoration: coral;
+}
+ul {
+    list-style-type: square;
+    font-family: "Orbitron", sans-serif;
+}
+li {
+    font-family: "Orbitron", sans-serif;
+}
+p {
+    font-family: "Uncial Antiqua", system-ui;
+}
+main {
+    font-family: "Uncial Antiqua", system-ui;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
