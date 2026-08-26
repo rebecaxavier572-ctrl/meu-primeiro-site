@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: rgb(80, 167, 159);
+    flex-direction: row;
+    justify-content: end; 
+    
+}
+#oi{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    flex-wrap: nowrap;
+    padding: 0%;
+}
+#hi{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 90px;
+}
+.banner{
+    background-color: rgb(194, 241, 241);
+}
+#look{
+    display: flex;
+    justify-content: center;
+}
