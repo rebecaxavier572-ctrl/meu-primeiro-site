@@ -9,7 +9,7 @@ h2{
     margin-bottom: 20px;
 }
 .cabecalho{
-    background-color: rgb(80, 167, 159);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,7 +18,7 @@ h2{
 }
 #oi{
     display: flex;
-    color: aliceblue;
+    color: #772323;
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
@@ -26,25 +26,32 @@ h2{
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: #772323;
 }
 .banner{
-    background-color: rgb(194, 241, 241);
+    background-color: #ffe799;
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 50px;
     flex-direction: column;
     margin-bottom: 50px;
 }
+.link{
+   display: flex; 
+   gap: 50px;
+}
 .banner  p{
-    color: rgb(7, 99, 99);
+    color: #D7263D;
     display: flex;
     justify-content: center;
     margin: 12px;
     margin-bottom: 15px;
+    font-family: "Belanosima", sans-serif;
+    font-size: 15px;
     
 }
-.banner button{ color: blue;
+.banner button{ color: rgb(26, 26, 63);
     display: flex;
     justify-content: center;
     border: none;
@@ -55,6 +62,9 @@ a{
 }
 .produto {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: solid black;
     gap: 5px;
     flex-direction: column;
@@ -81,10 +91,11 @@ a{
     display: flex;
     justify-content: space-evenly; 
    margin-bottom: 50px;
+   
 
 }
 .rodape{
-    background-color: rgb(80, 167, 159);
+    background-color: #eaab63;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -94,27 +105,19 @@ a{
     font-family: "Belanosima", sans-serif;
     display: flex;
     justify-content: center;
-    color: rgb(5, 75, 75);
+    color: #772323;
     font-size: 50px;
 }
 
 
-.produto button{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(46, 46, 253);
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 5px;
-    width: 200px;
-}
 .produto p{
     display: flex;
     justify-content: center;
 }
-button{
-    display: flex;
-    justify-content: center;
-}
 
+
+.produto :hover{
+    transform: scale();
+
+}
 
