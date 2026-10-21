@@ -5,10 +5,12 @@ for(let i = 0; i <= 10; i++){
 }
 
 let numero = 8
-
-for(let i = 0; i <= 10; i++){
-    console.log( " resultado " + numero + " x " + i + " = " + numero *i);
+function data(numero){
+    for(let i = 0; i <= 10; i++){
+        console.log( " resultado " + numero + " x " + i + " = " + numero *i);
+    }
 }
+data(6)
 
 
 
@@ -23,9 +25,9 @@ if (operacao == "+"){
 else if (operacao == "*" ){
     alert ( " resultado " + numero1 + " x " + numero2 + " = " + numero1 * numero2 )
 }
-else if (operacao == "-")[
+else if (operacao == "-"){
     alert ( " resultado " + numero1 + " - " + numero2 + " = " + (numero1 - numero2) )
-]
+}
 else if (operacao ==  "/"){
     alert ( " resultado " + numero1 + " / " + numero2 + " = " + numero1 / numero2 )
 }
