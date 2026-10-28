@@ -14,6 +14,7 @@ let peso = parseFloat(prompt("Digite o seu peso (kg): "))
 let altura = parseFloat(prompt ("Informe a sua altura (metros):"))
 
 let resultado = calcularIMC(peso,altura)
+let classificaçao = classificarIMC(resultado)
 
 function calcularIMC(peso,altura){
     return  peso / (altura * altura)
@@ -42,3 +43,4 @@ function classificarIMC(resultado){
         alert ("Obesidade grau 3 (grave)")
     }
 }
+function gerarRelatorio (peso, resultado, classificaçao)
